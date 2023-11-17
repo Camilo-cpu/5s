@@ -1,0 +1,125 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("/Imagenes/Fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+/*Texto Principal*/
+h1 {
+  text-align: center;
+}
+
+fieldset img {
+  /* Modificación de todas las imagenes */
+  width: 900px; /* Establece el ancho en píxeles */
+  height: 500px; /* Establece la altura en píxeles */
+  display: block;
+  margin: auto;
+}
+
+label[for^="pregunta_"] {
+  font-weight: bold;
+}
+/*PRUEBAS*/
+
+/* file-name hace referencia al Estilo de Elegir archivo*/
+.file-name {
+  background-color: #ced8f6;
+  width: 400px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px dashed #999;
+}
+.file-name::-webkit-file-upload-button {
+  color: black;
+  font-weight: bold;
+}
+
+.file-name::-moz-file-upload-button {
+  color: black;
+  font-weight: bold;
+}
+.file-name::-ms-browse {
+  color: black;
+  font-weight: bold;
+}
+
+.file-name::file-selector-button {
+  height: 20px;
+  border-radius: 5px;
+  border: 0.1px solid gray;
+  transition: 0.4s;
+}
+
+.file-name::file-selector-button:hover {
+  background-color: green;
+}
+/*Radio*/
+.Cumple{
+  position: relative;
+  color: #01cc65;
+  font-family: 'Poppins',sans-serif;
+}
+
+form {
+  width: 80%;
+  max-width: 1000px; /* Aumenté el ancho máximo para evitar cortar textos */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px; /* Añadí un margen inferior para separar del contenido siguiente */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="file"],
+input[type="text"] {
+  width: calc(100% - 20px); /* Ajusté el ancho para considerar el relleno */
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
