@@ -30,11 +30,10 @@ fieldset img {
   display: block;
   margin: auto;
 }
-
+/*Texto en negrilla*/
 label[for^="pregunta_"] {
   font-weight: bold;
 }
-/*PRUEBAS*/
 
 /* file-name hace referencia al Estilo de Elegir archivo*/
 .file-name {
@@ -67,12 +66,6 @@ label[for^="pregunta_"] {
 
 .file-name::file-selector-button:hover {
   background-color: green;
-}
-/*Radio*/
-.Cumple{
-  position: relative;
-  color: #01cc65;
-  font-family: 'Poppins',sans-serif;
 }
 
 form {
@@ -112,9 +105,22 @@ input[type="text"] {
   margin-bottom: 10px;
   box-sizing: border-box;
 }
+/*Radio Cumple o no Cumple*/
+.Cumplimiento input[type="radio"] {
+  display: none; /* Oculta el control de radio por defecto */
+}
 
-input[type="radio"] {
-  margin-right: 5px;
+.Cumplimiento input[type="radio"] + label {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: 2px solid #0e0ea6;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.Cumplimiento input[type="radio"]:checked + label {
+  background-color: #0e0ea6;
+  color: #fff;
 }
 
 input[type="submit"] {
@@ -140,6 +146,4 @@ input[type="submit"]:hover {
     max-width: 100%;
     height: auto;
   }
-  }
-
 }
