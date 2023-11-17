@@ -9,7 +9,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #f0f0f0;
+  background-color: #0e0ea6;
   margin: 0;
   padding: 0;
   display: flex;
@@ -21,6 +21,7 @@ body {
 /*Texto Principal*/
 h1 {
   text-align: center;
+  color: red;
 }
 
 fieldset img {
@@ -136,6 +137,43 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 
+/*Matris de calificaciones*/
+.calificaciones {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Estilos específicos para las etiquetas "Clasificar", "Ordenar", etc. */
+
+/* Estilos para los radios (puedes personalizar según tu preferencia) */
+input[type="radio"] {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+/* Estilos para el botón */
+#submitBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0e0ea6;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#submitBtn:hover {
+  background-color: #45a049;
+}
 /* Estilos base */
 
 @media screen and (max-width: 600px) {
