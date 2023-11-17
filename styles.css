@@ -1,5 +1,10 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Century Gothic;
+}
+
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-image: url("/Imagenes/Fondo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,6 +17,7 @@ body {
   justify-content: center;
   height: 100%;
 }
+
 /*Texto Principal*/
 h1 {
   text-align: center;
@@ -122,4 +128,17 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #45a049;
+}
+
+/* Estilos base */
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  fieldset img {
+    width: 400px; /* Establece el ancho en píxeles */
+    height: 250px
+  }
+
 }
