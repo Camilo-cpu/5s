@@ -25,8 +25,8 @@ h1 {
 
 fieldset img {
   /* Modificación de todas las imagenes */
-  width: 900px; /* Establece el ancho en píxeles */
-  height: 500px; /* Establece la altura en píxeles */
+  max-width: 100%;
+  height: auto;
   display: block;
   margin: auto;
 }
@@ -137,8 +137,9 @@ input[type="submit"]:hover {
     font-size: 14px;
   }
   fieldset img {
-    width: 400px; /* Establece el ancho en píxeles */
-    height: 250px
+    max-width: 100%;
+    height: auto;
+  }
   }
 
 }
