@@ -135,7 +135,6 @@ input[type="text"] {
   background-color: #0e0ea6;
   color: #fff;
 }
-
 /* Muestra el mensaje de error cuando no hay opción seleccionada */
 .Cumplimiento input[type="radio"]:invalid + label + span {
   display: inline-block;
