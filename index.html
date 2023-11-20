@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auditoria 5s Laboratorios</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="scripts.js"></script>
   </head>
   <body>
     <form action="#" method="post" class="Formulario">
@@ -81,7 +80,7 @@
             >
             <input type="text" id="pregunta_3" name="pregunta_3" />
           </div>
-          <div>
+          <div class="Respuesta">
             <label for="pregunta_4"
               >*¿Las piletas cuentan con sistema de control de
               temperaturas?</label
@@ -100,6 +99,7 @@
               value="No"
             />
             No
+
           </div>
         </section>
         <!-- Include other questions related to Zona 1 Piletas de Curado -->
@@ -327,7 +327,7 @@
           />
           <label for="pregunta_16_no_cumple">No cumple</label>
         </div>
-        <div>
+        <div class="Cumplimiento">
           <label for="pregunta_17"
             >*Mínimo de seguridad - La iluminación debe ser adecuada, el mesón
             debe estar techado y garantizando la ventilación.</label
@@ -417,7 +417,7 @@
           />
           <label for="pregunta_21_no_cumple">No cumple</label>
         </div>
-        <div>
+        <div class="Cumplimiento">
           <label for="pregunta_22"
             >*•(NR)El compresor para el uso del aire no debe estar en el
             laboratorio debe estar afuera y bien insonorizado. El estándar de
@@ -1412,9 +1412,8 @@
       </fieldset>
       <!-- Continue adding fieldsets for other sections with respective questions -->
 
-      <div>
-        <input type="submit" value="Enviar Formulario" id="submitBtn" />
-      </div>
+        <input type="submit" value="Enviar Formulario" id="submitBtn" />    
     </form>
+    <script src="scripts.js"></script>
   </body>
 </html>

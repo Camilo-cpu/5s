@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("/Imagenes/Fondo.jpg");
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -24,6 +24,10 @@ h1 {
   color: red;
 }
 
+legend {
+  text-align: center;
+  color: red;
+}
 fieldset img {
   /* Modificación de todas las imagenes */
   max-width: 100%;
@@ -146,7 +150,21 @@ input[type="submit"]:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilo por defecto para div con clase Respuesta */
+/* Estilo por defecto para div con clase Respuesta */
+.Respuesta {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
 
+/* Estilos adicionales para hacer que los botones parezcan botones */
+.botones label {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
 /* Estilos específicos para las etiquetas "Clasificar", "Ordenar", etc. */
 
