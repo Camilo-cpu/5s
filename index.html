@@ -19,6 +19,7 @@
               type="file"
               id="pregunta_0"
               name="pregunta_0"
+              required
             />
           </div>
           <div class="Cumplimiento">
@@ -31,6 +32,7 @@
               id="pregunta_1_cumple"
               name="pregunta_1"
               value="Cumple"
+              required
             /> 
             <label for="pregunta_1_cumple">Cumple</label>
             <input
@@ -40,45 +42,46 @@
               value="No cumple"
             />
             <label for="pregunta_1_no_cumple">No cumple</label>
+            <span>Selecciona una de estas opciones</span>
           </div>
           <div class="calificaciones">
             <label for="pregunta_2">*Valoración Piletas:</label>
             <label for="Clasificar">Clasificar</label>
-            <input type="radio" id="Op1" name="pregunta_2_Clasificar" value="1" /> 1
-            <input type="radio" id="Op2" name="pregunta_2_Clasificar" value="2" /> 2
-            <input type="radio" id="Op3" name="pregunta_2_Clasificar" value="3" /> 3
-            <input type="radio" id="Op4" name="pregunta_2_Clasificar" value="4" /> 4
-            <input type="radio" id="Op5" name="pregunta_2_Clasificar" value="5" /> 5
-            <label for="Clasificar">Ordenar</label>
-            <input type="radio" id="Op1" name="pregunta_2_Ordenar" value="1" /> 1
-            <input type="radio" id="Op2" name="pregunta_2_Ordenar" value="2" /> 2
-            <input type="radio" id="Op3" name="pregunta_2_Ordenar" value="3" /> 3
-            <input type="radio" id="Op4" name="pregunta_2_Ordenar" value="4" /> 4
-            <input type="radio" id="Op5" name="pregunta_2_Ordenar" value="5" /> 5
-            <label for="Clasificar">Limpiar</label>
-            <input type="radio" id="Op1" name="pregunta_2_Limpiar" value="1" /> 1
-            <input type="radio" id="Op2" name="pregunta_2_Limpiar" value="2" /> 2
-            <input type="radio" id="Op3" name="pregunta_2_Limpiar" value="3" /> 3
-            <input type="radio" id="Op4" name="pregunta_2_Limpiar" value="4" /> 4
-            <input type="radio" id="Op5" name="pregunta_2_Limpiar" value="5" /> 5
-            <label for="Clasificar">Estandarizar</label>
-            <input type="radio" id="Op1" name="pregunta_2_Estandarizar" value="1" /> 1
-            <input type="radio" id="Op2" name="pregunta_2_Estandarizar" value="2" /> 2
-            <input type="radio" id="Op3" name="pregunta_2_Estandarizar" value="3" /> 3
-            <input type="radio" id="Op4" name="pregunta_2_Estandarizar" value="4" /> 4
-            <input type="radio" id="Op5" name="pregunta_2_Estandarizar" value="5" /> 5
-            <label for="Clasificar">Sostener</label>
-            <input type="radio" id="Op1" name="pregunta_2_Sostener" value="1" /> 1
-            <input type="radio" id="Op2" name="pregunta_2_Sostener" value="2" /> 2
-            <input type="radio" id="Op3" name="pregunta_2_Sostener" value="3" /> 3
-            <input type="radio" id="Op4" name="pregunta_2_Sostener" value="4" /> 4
-            <input type="radio" id="Op5" name="pregunta_2_Sostener" value="5" /> 5
+            <input type="radio" id="pregunta_2_Op1_Clasificar" name="pregunta_2_Clasificar" value="1" required /> 1
+            <input type="radio" id="pregunta_2_Op2_Clasificar" name="pregunta_2_Clasificar" value="2" /> 2
+            <input type="radio" id="pregunta_2_Op3_Clasificar" name="pregunta_2_Clasificar" value="3" /> 3
+            <input type="radio" id="pregunta_2_Op4_Clasificar" name="pregunta_2_Clasificar" value="4" /> 4
+            <input type="radio" id="pregunta_2_Op5_Clasificar" name="pregunta_2_Clasificar" value="5" /> 5
+            <label for="Ordenar">Ordenar</label>
+            <input type="radio" id="pregunta_2_Op1_Ordenar" name="pregunta_2_Ordenar" value="1" required /> 1
+            <input type="radio" id="pregunta_2_Op2_Ordenar" name="pregunta_2_Ordenar" value="2" /> 2
+            <input type="radio" id="pregunta_2_Op3_Ordenar" name="pregunta_2_Ordenar" value="3" /> 3
+            <input type="radio" id="pregunta_2_Op4_Ordenar" name="pregunta_2_Ordenar" value="4" /> 4
+            <input type="radio" id="pregunta_2_Op5_Ordenar" name="pregunta_2_Ordenar" value="5" /> 5
+            <label for="Limpiar">Limpiar</label>
+            <input type="radio" id="pregunta_2_Op1_Limpiar" name="pregunta_2_Limpiar" value="1" required /> 1
+            <input type="radio" id="pregunta_2_Op2_Limpiar" name="pregunta_2_Limpiar" value="2" /> 2
+            <input type="radio" id="pregunta_2_Op3_Limpiar" name="pregunta_2_Limpiar" value="3" /> 3
+            <input type="radio" id="pregunta_2_Op4_Limpiar" name="pregunta_2_Limpiar" value="4" /> 4
+            <input type="radio" id="pregunta_2_Op5_Limpiar" name="pregunta_2_Limpiar" value="5" /> 5
+            <label for="Estandarizar">Estandarizar</label>
+            <input type="radio" id="pregunta_2_Op1_Estandarizar" name="pregunta_2_Estandarizar" value="1" required /> 1
+            <input type="radio" id="pregunta_2_Op2_Estandarizar" name="pregunta_2_Estandarizar" value="2" /> 2
+            <input type="radio" id="pregunta_2_Op3_Estandarizar" name="pregunta_2_Estandarizar" value="3" /> 3
+            <input type="radio" id="pregunta_2_Op4_Estandarizar" name="pregunta_2_Estandarizar" value="4" /> 4
+            <input type="radio" id="pregunta_2_Op5_Estandarizar" name="pregunta_2_Estandarizar" value="5" /> 5
+            <label for="Sostener">Sostener</label>
+            <input type="radio" id="pregunta_2_Op1_Sostener" name="pregunta_2_Sostener" value="1" required /> 1
+            <input type="radio" id="pregunta_2_Op2_Sostener" name="pregunta_2_Sostener" value="2" /> 2
+            <input type="radio" id="pregunta_2_Op3_Sostener" name="pregunta_2_Sostener" value="3" /> 3
+            <input type="radio" id="pregunta_2_Op4_Sostener" name="pregunta_2_Sostener" value="4" /> 4
+            <input type="radio" id="pregunta_2_Op5_Sostener" name="pregunta_2_Sostener" value="5" /> 5
           </div>
           <div>
             <label for="pregunta_3"
               >*Observaciones zonas de piletas(Acciones a tomar):</label
             >
-            <input type="text" id="pregunta_3" name="pregunta_3" />
+            <input type="text" id="pregunta_3" name="pregunta_3" required/>
           </div>
           <div class="Respuesta">
             <label for="pregunta_4"
@@ -90,6 +93,7 @@
               id="pregunta_4_si"
               name="pregunta_4"
               value="Si"
+              required
             />
             Si
             <input
@@ -102,10 +106,7 @@
 
           </div>
         </section>
-        <!-- Include other questions related to Zona 1 Piletas de Curado -->
       </fieldset>
-      <!-- Add other fieldsets for different sections -->
-      <!-- Fieldset for Piletas de Curado - Control de temperaturas -->
       <fieldset>
         <legend>Piletas de Curado - Control de temperaturas</legend>
         <img
@@ -116,7 +117,7 @@
           <label for="pregunta_5"
             >*Fotos del sistema de control de temperatura</label
           >
-          <input class="file-name" type="file" id="pregunta_5" name="pregunta_5" />
+          <input class="file-name" type="file" id="pregunta_5" name="pregunta_5" required/>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_6"
@@ -130,6 +131,7 @@
             id="pregunta_6_cumple"
             name="pregunta_6"
             value="Cumple"
+            required
           />
           <label for="pregunta_6_cumple">Cumple</label>
           <input
@@ -139,6 +141,7 @@
             value="No cumple"
           />
           <label for="pregunta_6_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_7"
@@ -154,6 +157,7 @@
             id="pregunta_7_cumple"
             name="pregunta_7"
             value="Cumple"
+            required
           />
           <label for="pregunta_7_cumple">Cumple</label>
           <input
@@ -163,48 +167,49 @@
             value="No cumple"
           />
           <label for="pregunta_7_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="calificaciones">
           <label for="pregunta_8"
             >*Valoración 5s Ssistema de control de temperatura:</label
           >
           <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_8_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_8_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_8_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_8_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_8_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_8_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_8_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_8_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_8_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_8_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_8_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_8_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_8_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_8_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_8_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_8_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_8_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_8_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_8_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_8_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_8_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_8_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_8_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_8_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_8_Sostener" value="5" /> 5
+          <input type="radio" id="pregunta_8_Op1_Clasificar" name="pregunta_8_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_8_Op2_Clasificar" name="pregunta_8_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_8_Op3_Clasificar" name="pregunta_8_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_8_Op4_Clasificar" name="pregunta_8_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_8_Op5_Clasificar" name="pregunta_8_Clasificar" value="5" /> 5
+          <label for="Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_8_Op1_Ordenar" name="pregunta_8_Ordenar" value="1" required /> 1
+          <input type="radio" id="pregunta_8_Op2_Ordenar" name="pregunta_8_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_8_Op3_Ordenar" name="pregunta_8_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_8_Op4_Ordenar" name="pregunta_8_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_8_Op5_Ordenar" name="pregunta_8_Ordenar" value="5" /> 5
+          <label for="Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_8_Op1_Limpiar" name="pregunta_8_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_8_Op2_Limpiar" name="pregunta_8_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_8_Op3_Limpiar" name="pregunta_8_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_8_Op4_Limpiar" name="pregunta_8_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_8_Op5_Limpiar" name="pregunta_8_Limpiar" value="5" /> 5
+          <label for="Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_8_Op1_Estandarizar" name="pregunta_8_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_8_Op2_Estandarizar" name="pregunta_8_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_8_Op3_Estandarizar" name="pregunta_8_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_8_Op4_Estandarizar" name="pregunta_8_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_8_Op5_Estandarizar" name="pregunta_8_Estandarizar" value="5" /> 5
+          <label for="Sostener">Sostener</label>
+          <input type="radio" id="pregunta_8_Op1_Sostener" name="pregunta_8_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_8_Op2_Sostener" name="pregunta_8_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_8_Op3_Sostener" name="pregunta_8_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_8_Op4_Sostener" name="pregunta_8_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_8_Op5_Sostener" name="pregunta_8_Sostener" value="5" /> 5
         </div>
         <div>
           <label for="pregunta_9"
             >*Observaciones sistema de control de temperatura (Acciones a
             tomar):</label
           >
-          <input type="text" id="pregunta_9" name="pregunta_9" />
+          <input type="text" id="pregunta_9" name="pregunta_9" required/>
         </div>
 
         <!-- Include other questions related to Piletas de Curado - Control de temperaturas -->
@@ -214,7 +219,7 @@
         <img src="Imagenes/Sacavigas.png" alt="Piletas de curado" />
         <div>
           <label for="pregunta_10">*Fotos del Sacavigas</label>
-          <input class="file-name" type="file" id="pregunta_10" name="pregunta_5" />
+          <input class="file-name" type="file" id="pregunta_10" name="pregunta_5" required/>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_11"
@@ -228,6 +233,7 @@
             id="pregunta_11_cumple"
             name="pregunta_11"
             value="Cumple"
+            required
           />
           <label for="pregunta_11_cumple">Cumple</label>
           <input
@@ -237,6 +243,7 @@
             value="No cumple"
           />
           <label for="pregunta_11_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_12"
@@ -250,6 +257,7 @@
             id="pregunta_12_cumple"
             name="pregunta_12"
             value="Cumple"
+            required
           />
           <label for="pregunta_12_cumple">Cumple</label>
           <input
@@ -259,45 +267,46 @@
             value="No cumple"
           />
           <label for="pregunta_12_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="calificaciones">
-          <label for="pregunta_13">*Valoración 5s Sacavigas:</label>
+          <label for="pregunta_13">*Valoración 5s Sacavigas:</label> 
           <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_13_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_13_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_13_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_13_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_13_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_13_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_13_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_13_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_13_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_13_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_13_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_13_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_13_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_13_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_13_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_13_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_13_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_13_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_13_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_13_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_13_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_13_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_13_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_13_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_13_Sostener" value="5" /> 5
-        </div>
+          <input type="radio" id="pregunta_13_Op1_Clasificar" name="pregunta_13_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_13_Op2_Clasificar" name="pregunta_13_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_13_Op3_Clasificar" name="pregunta_13_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_13_Op4_Clasificar" name="pregunta_13_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_13_Op5_Clasificar" name="pregunta_13_Clasificar" value="5" /> 5
+          <label for="Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_13_Op1_Ordenar" name="pregunta_13_Ordenar" value="1" required/> 1
+          <input type="radio" id="pregunta_13_Op2_Ordenar" name="pregunta_13_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_13_Op3_Ordenar" name="pregunta_13_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_13_Op4_Ordenar" name="pregunta_13_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_13_Op5_Ordenar" name="pregunta_13_Ordenar" value="5" /> 5
+          <label for="Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_13_Op1_Limpiar" name="pregunta_13_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_13_Op2_Limpiar" name="pregunta_13_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_13_Op3_Limpiar" name="pregunta_13_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_13_Op4_Limpiar" name="pregunta_13_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_13_Op5_Limpiar" name="pregunta_13_Limpiar" value="5" /> 5
+          <label for="Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_13_Op1_Estandarizar" name="pregunta_13_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_13_Op2_Estandarizar" name="pregunta_13_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_13_Op3_Estandarizar" name="pregunta_13_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_13_Op4_Estandarizar" name="pregunta_13_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_13_Op5_Estandarizar" name="pregunta_13_Estandarizar" value="5" /> 5
+          <label for="Sostener">Sostener</label>
+          <input type="radio" id="pregunta_13_Op1_Sostener" name="pregunta_13_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_13_Op2_Sostener" name="pregunta_13_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_13_Op3_Sostener" name="pregunta_13_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_13_Op4_Sostener" name="pregunta_13_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_13_Op5_Sostener" name="pregunta_13_Sostener" value="5" /> 5
+      </div>
         <div>
           <label for="pregunta_14"
             >*Observaciones sacavigas (Acciones a tomar):</label
           >
-          <input type="text" id="pregunta_14" name="pregunta_14" />
+          <input type="text" id="pregunta_14" name="pregunta_14" required/>
         </div>
       </fieldset>
       <fieldset>
@@ -305,7 +314,7 @@
         <img src="Imagenes/Muestras de concreto.png" alt="Piletas de curado" />
         <div>
           <label for="pregunta_15">*Fotos del mesón de muestras</label>
-          <input class="file-name" type="file" id="pregunta_15" name="pregunta_15" />
+          <input class="file-name" type="file" id="pregunta_15" name="pregunta_15" required/>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_16"
@@ -317,6 +326,7 @@
             id="pregunta_16_cumple"
             name="pregunta_16"
             value="Cumple"
+            required
           />
           <label for="pregunta_16_cumple">Cumple</label>
           <input
@@ -326,6 +336,7 @@
             value="No cumple"
           />
           <label for="pregunta_16_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_17"
@@ -337,6 +348,7 @@
             id="pregunta_17_cumple"
             name="pregunta_17"
             value="Cumple"
+            required
           />
           <label for="pregunta_17_cumple">Cumple</label>
           <input
@@ -346,48 +358,48 @@
             value="No cumple"
           />
           <label for="pregunta_17_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="calificaciones">
-          <label for="pregunta_18"
-            >*Valoración 5s Mesón de muestras de concreto:</label
-          >
+          <label for="pregunta_18">*Valoración 5s Mesón de muestras de concreto:</label>
           <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_18_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_18_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_18_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_18_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_18_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_18_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_18_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_18_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_18_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_18_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_18_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_18_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_18_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_18_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_18_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_18_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_18_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_18_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_18_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_18_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_18_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_18_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_18_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_18_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_18_Sostener" value="5" /> 5
-        </div>
+          <input type="radio" id="pregunta_18_Op1_Clasificar" name="pregunta_18_Clasificar" value="1" required/> 1
+          <input type="radio" id="pregunta_18_Op2_Clasificar" name="pregunta_18_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_18_Op3_Clasificar" name="pregunta_18_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_18_Op4_Clasificar" name="pregunta_18_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_18_Op5_Clasificar" name="pregunta_18_Clasificar" value="5" /> 5
+          <label for="Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_18_Op1_Ordenar" name="pregunta_18_Ordenar" value="1" required/> 1
+          <input type="radio" id="pregunta_18_Op2_Ordenar" name="pregunta_18_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_18_Op3_Ordenar" name="pregunta_18_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_18_Op4_Ordenar" name="pregunta_18_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_18_Op5_Ordenar" name="pregunta_18_Ordenar" value="5" /> 5
+          <label for="Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_18_Op1_Limpiar" name="pregunta_18_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_18_Op2_Limpiar" name="pregunta_18_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_18_Op3_Limpiar" name="pregunta_18_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_18_Op4_Limpiar" name="pregunta_18_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_18_Op5_Limpiar" name="pregunta_18_Limpiar" value="5" /> 5
+          <label for="Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_18_Op1_Estandarizar" name="pregunta_18_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_18_Op2_Estandarizar" name="pregunta_18_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_18_Op3_Estandarizar" name="pregunta_18_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_18_Op4_Estandarizar" name="pregunta_18_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_18_Op5_Estandarizar" name="pregunta_18_Estandarizar" value="5" /> 5
+          <label for="Sostener">Sostener</label>
+          <input type="radio" id="pregunta_18_Op1_Sostener" name="pregunta_18_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_18_Op2_Sostener" name="pregunta_18_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_18_Op3_Sostener" name="pregunta_18_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_18_Op4_Sostener" name="pregunta_18_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_18_Op5_Sostener" name="pregunta_18_Sostener" value="5" /> 5
+      </div>
+      
         <div>
           <label for="pregunta_19"
             >*Observaciones Mesón de muestras de concreto (Acciones a
             tomar):</label
           >
-          <input type="text" id="pregunta_19" name="pregunta_19" />
+          <input type="text" id="pregunta_19" name="pregunta_19" required/>
         </div>
       </fieldset>
       <fieldset>
@@ -395,7 +407,7 @@
         <img src="Imagenes/Compresor.jpg" alt="Piletas de curado" />
         <div>
           <label for="pregunta_20">*Fotos de la linea neumática</label>
-          <input class="file-name" type="file" id="pregunta_20" name="pregunta_20" />
+          <input class="file-name" type="file" id="pregunta_20" name="pregunta_20" required/>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_21"
@@ -407,6 +419,7 @@
             id="pregunta_21_cumple"
             name="pregunta_21"
             value="Cumple"
+            required
           />
           <label for="pregunta_21_cumple">Cumple</label>
           <input
@@ -416,6 +429,7 @@
             value="No cumple"
           />
           <label for="pregunta_21_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_22"
@@ -428,6 +442,7 @@
             id="pregunta_22_cumple"
             name="pregunta_22"
             value="Cumple"
+            required
           />
           <label for="pregunta_22_cumple">Cumple</label>
           <input
@@ -437,46 +452,52 @@
             value="No cumple"
           />
           <label for="pregunta_22_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="calificaciones">
           <label for="pregunta_23">*Valoración 5s Compresor:</label>
+      
           <label for="Clasificar">Clasificar</label>
-          <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_23_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_23_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_23_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_23_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_23_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_23_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_23_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_23_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_23_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_23_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_23_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_23_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_23_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_23_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_23_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_23_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_23_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_23_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_23_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_23_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_23_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_23_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_23_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_23_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_23_Sostener" value="5" /> 5
-        </div>
+          <input type="radio" id="pregunta_23_Op1_Clasificar" name="pregunta_23_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_23_Op2_Clasificar" name="pregunta_23_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_23_Op3_Clasificar" name="pregunta_23_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_23_Op4_Clasificar" name="pregunta_23_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_23_Op5_Clasificar" name="pregunta_23_Clasificar" value="5" /> 5
+      
+          <label for="Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_23_Op1_Ordenar" name="pregunta_23_Ordenar" value="1" required /> 1
+          <input type="radio" id="pregunta_23_Op2_Ordenar" name="pregunta_23_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_23_Op3_Ordenar" name="pregunta_23_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_23_Op4_Ordenar" name="pregunta_23_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_23_Op5_Ordenar" name="pregunta_23_Ordenar" value="5" /> 5
+      
+          <label for="Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_23_Op1_Limpiar" name="pregunta_23_Limpiar" value="1" required /> 1
+          <input type="radio" id="pregunta_23_Op2_Limpiar" name="pregunta_23_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_23_Op3_Limpiar" name="pregunta_23_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_23_Op4_Limpiar" name="pregunta_23_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_23_Op5_Limpiar" name="pregunta_23_Limpiar" value="5" /> 5
+      
+          <label for="Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_23_Op1_Estandarizar" name="pregunta_23_Estandarizar" value="1" required /> 1
+          <input type="radio" id="pregunta_23_Op2_Estandarizar" name="pregunta_23_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_23_Op3_Estandarizar" name="pregunta_23_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_23_Op4_Estandarizar" name="pregunta_23_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_23_Op5_Estandarizar" name="pregunta_23_Estandarizar" value="5" /> 5
+      
+          <label for="Sostener">Sostener</label>
+          <input type="radio" id="pregunta_23_Op1_Sostener" name="pregunta_23_Sostener" value="1" required /> 1
+          <input type="radio" id="pregunta_23_Op2_Sostener" name="pregunta_23_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_23_Op3_Sostener" name="pregunta_23_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_23_Op4_Sostener" name="pregunta_23_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_23_Op5_Sostener" name="pregunta_23_Sostener" value="5" /> 5
+      </div>
+      
         <div>
           <label for="pregunta_24"
             >*Observaciones Compresor (Acciones a tomar):</label
           >
-          <input type="text" id="pregunta_24" name="pregunta_24" />
+          <input type="text" id="pregunta_24" name="pregunta_24" required/>
         </div>
       </fieldset>
       <fieldset>
@@ -486,7 +507,7 @@
           <label for="pregunta_25"
             >*Fotos prensas de compresión y flexión</label
           >
-          <input class="file-name" type="file" id="pregunta_25" name="pregunta_25" />
+          <input class="file-name" type="file" id="pregunta_25" name="pregunta_25" required />
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_26"
@@ -499,6 +520,7 @@
             id="pregunta_26_cumple"
             name="pregunta_26"
             value="Cumple"
+            required
           />
           <label for="pregunta_26_cumple">Cumple</label>
           <input
@@ -508,6 +530,7 @@
             value="No cumple"
           />
           <label for="pregunta_26_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_27"
@@ -520,6 +543,7 @@
             id="pregunta_27_cumple"
             name="pregunta_27"
             value="Cumple"
+            required
           />
           <label for="pregunta_27_cumple">Cumple</label>
           <input
@@ -529,48 +553,47 @@
             value="No cumple"
           />
           <label for="pregunta_27_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="calificaciones">
-          <label for="pregunta_28"
-            >*Valoración 5s Prensas de compresión y flexión:</label
-          >
+          <label for="pregunta_28">*Valoración 5s Prensas de compresión y flexión:</label>
           <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_28_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_28_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_28_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_28_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_28_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_28_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_28_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_28_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_28_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_28_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_28_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_28_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_28_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_28_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_28_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_28_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_28_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_28_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_28_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_28_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_28_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_28_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_28_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_28_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_28_Sostener" value="5" /> 5
-        </div>
+          <input type="radio" id="pregunta_28_Op1_Clasificar" name="pregunta_28_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_28_Op2_Clasificar" name="pregunta_28_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_28_Op3_Clasificar" name="pregunta_28_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_28_Op4_Clasificar" name="pregunta_28_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_28_Op5_Clasificar" name="pregunta_28_Clasificar" value="5" /> 5
+          <label for="Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_28_Op1_Ordenar" name="pregunta_28_Ordenar" value="1" required/> 1
+          <input type="radio" id="pregunta_28_Op2_Ordenar" name="pregunta_28_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_28_Op3_Ordenar" name="pregunta_28_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_28_Op4_Ordenar" name="pregunta_28_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_28_Op5_Ordenar" name="pregunta_28_Ordenar" value="5" /> 5
+          <label for="Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_28_Op1_Limpiar" name="pregunta_28_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_28_Op2_Limpiar" name="pregunta_28_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_28_Op3_Limpiar" name="pregunta_28_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_28_Op4_Limpiar" name="pregunta_28_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_28_Op5_Limpiar" name="pregunta_28_Limpiar" value="5" /> 5
+          <label for="Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_28_Op1_Estandarizar" name="pregunta_28_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_28_Op2_Estandarizar" name="pregunta_28_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_28_Op3_Estandarizar" name="pregunta_28_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_28_Op4_Estandarizar" name="pregunta_28_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_28_Op5_Estandarizar" name="pregunta_28_Estandarizar" value="5" /> 5
+          <label for="Sostener">Sostener</label>
+          <input type="radio" id="pregunta_28_Op1_Sostener" name="pregunta_28_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_28_Op2_Sostener" name="pregunta_28_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_28_Op3_Sostener" name="pregunta_28_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_28_Op4_Sostener" name="pregunta_28_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_28_Op5_Sostener" name="pregunta_28_Sostener" value="5" /> 5
+      </div>
         <div>
           <label for="pregunta_29"
             >*Observaciones prensas de compresión y flexión (Acciones a
             tomar):</label
           >
-          <input type="text" id="pregunta_29" name="pregunta_29" />
+          <input type="text" id="pregunta_29" name="pregunta_29" required/>
         </div>
       </fieldset>
       <fieldset>
@@ -580,7 +603,7 @@
           <label for="pregunta_30"
             >*Fotos elementos de trabajo en caliente</label
           >
-          <input class="file-name" type="file" id="pregunta_30" name="pregunta_30" />
+          <input class="file-name" type="file" id="pregunta_30" name="pregunta_30" required/>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_31"
@@ -596,6 +619,7 @@
             id="pregunta_31_cumple"
             name="pregunta_31"
             value="Cumple"
+            required
           />
           <label for="pregunta_31_cumple">Cumple</label>
           <input
@@ -605,48 +629,48 @@
             value="No cumple"
           />
           <label for="pregunta_31_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="calificaciones">
-          <label for="pregunta_32"
-            >*Valoración 5s Elementos de trabajo en caliente:</label
-          >
+          <label for="pregunta_32">*Valoración 5s Elementos de trabajo en caliente:</label>
+      
           <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_32_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_32_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_32_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_32_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_32_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_32_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_32_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_32_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_32_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_32_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_32_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_32_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_32_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_32_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_32_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_32_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_32_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_32_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_32_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_32_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_32_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_32_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_32_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_32_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_32_Sostener" value="5" /> 5
-        </div>
+          <input type="radio" id="pregunta_32_Op1_Clasificar" name="pregunta_32_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_32_Op2_Clasificar" name="pregunta_32_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_32_Op3_Clasificar" name="pregunta_32_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_32_Op4_Clasificar" name="pregunta_32_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_32_Op5_Clasificar" name="pregunta_32_Clasificar" value="5" /> 5
+          <label for="Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_32_Op1_Ordenar" name="pregunta_32_Ordenar" value="1" required/> 1
+          <input type="radio" id="pregunta_32_Op2_Ordenar" name="pregunta_32_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_32_Op3_Ordenar" name="pregunta_32_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_32_Op4_Ordenar" name="pregunta_32_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_32_Op5_Ordenar" name="pregunta_32_Ordenar" value="5" /> 5
+          <label for="Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_32_Op1_Limpiar" name="pregunta_32_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_32_Op2_Limpiar" name="pregunta_32_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_32_Op3_Limpiar" name="pregunta_32_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_32_Op4_Limpiar" name="pregunta_32_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_32_Op5_Limpiar" name="pregunta_32_Limpiar" value="5" /> 5
+          <label for="Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_32_Op1_Estandarizar" name="pregunta_32_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_32_Op2_Estandarizar" name="pregunta_32_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_32_Op3_Estandarizar" name="pregunta_32_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_32_Op4_Estandarizar" name="pregunta_32_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_32_Op5_Estandarizar" name="pregunta_32_Estandarizar" value="5" /> 5
+          <label for="Sostener">Sostener</label>
+          <input type="radio" id="pregunta_32_Op1_Sostener" name="pregunta_32_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_32_Op2_Sostener" name="pregunta_32_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_32_Op3_Sostener" name="pregunta_32_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_32_Op4_Sostener" name="pregunta_32_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_32_Op5_Sostener" name="pregunta_32_Sostener" value="5" /> 5
+      </div>
         <div>
           <label for="pregunta_33"
             >*Observaciones elementos de trabajo en caliente (Acciones a
             tomar):</label
           >
-          <input type="text" id="pregunta_33" name="pregunta_33" />
+          <input type="text" id="pregunta_33" name="pregunta_33" required/>
         </div>
       </fieldset>
       <fieldset>
@@ -656,7 +680,7 @@
           <label for="pregunta_34"
             >*Fotos aditivos, contramuestras y MMPP</label
           >
-          <input class="file-name" class="file-name" type="file" id="pregunta_34" name="pregunta_34" />
+          <input class="file-name" class="file-name" type="file" id="pregunta_34" name="pregunta_34" required/>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_35"
@@ -669,6 +693,7 @@
             id="pregunta_35_cumple"
             name="pregunta_35"
             value="Cumple"
+            required
           />
           <label for="pregunta_35_cumple">Cumple</label>
           <input
@@ -678,48 +703,47 @@
             value="No cumple"
           />
           <label for="pregunta_35_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="calificaciones">
-          <label for="pregunta_36"
-            >*Valoración 5s Aditivos, contramuestras y MMPP:</label
-          >
+          <label for="pregunta_36">*Valoración 5s Aditivos, contramuestras y MMPP:</label>
           <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_36_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_36_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_36_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_36_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_36_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_36_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_36_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_36_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_36_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_36_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_36_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_36_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_36_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_36_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_36_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_36_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_36_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_36_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_36_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_36_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_36_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_36_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_36_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_36_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_36_Sostener" value="5" /> 5
-        </div>
+          <input type="radio" id="pregunta_36_Op1_Clasificar" name="pregunta_36_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_36_Op2_Clasificar" name="pregunta_36_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_36_Op3_Clasificar" name="pregunta_36_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_36_Op4_Clasificar" name="pregunta_36_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_36_Op5_Clasificar" name="pregunta_36_Clasificar" value="5" /> 5
+          <label for="Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_36_Op1_Ordenar" name="pregunta_36_Ordenar" value="1" required/> 1
+          <input type="radio" id="pregunta_36_Op2_Ordenar" name="pregunta_36_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_36_Op3_Ordenar" name="pregunta_36_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_36_Op4_Ordenar" name="pregunta_36_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_36_Op5_Ordenar" name="pregunta_36_Ordenar" value="5" /> 5
+          <label for="Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_36_Op1_Limpiar" name="pregunta_36_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_36_Op2_Limpiar" name="pregunta_36_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_36_Op3_Limpiar" name="pregunta_36_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_36_Op4_Limpiar" name="pregunta_36_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_36_Op5_Limpiar" name="pregunta_36_Limpiar" value="5" /> 5
+          <label for="Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_36_Op1_Estandarizar" name="pregunta_36_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_36_Op2_Estandarizar" name="pregunta_36_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_36_Op3_Estandarizar" name="pregunta_36_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_36_Op4_Estandarizar" name="pregunta_36_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_36_Op5_Estandarizar" name="pregunta_36_Estandarizar" value="5" /> 5
+          <label for="Sostener">Sostener</label>
+          <input type="radio" id="pregunta_36_Op1_Sostener" name="pregunta_36_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_36_Op2_Sostener" name="pregunta_36_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_36_Op3_Sostener" name="pregunta_36_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_36_Op4_Sostener" name="pregunta_36_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_36_Op5_Sostener" name="pregunta_36_Sostener" value="5" /> 5
+      </div>
         <div>
           <label for="pregunta_37"
             >*Observaciones Aditivos, contramuestras y MMPP (Acciones a
             tomar):</label
           >
-          <input type="text" id="pregunta_37" name="pregunta_37" />
+          <input type="text" id="pregunta_37" name="pregunta_37" required/>
         </div>
       </fieldset>
       <fieldset>
@@ -729,7 +753,7 @@
           <label for="pregunta_38"
             >*Fotos del espacio para ensayos de concreto y agregados</label
           >
-          <input class="file-name" type="file" id="pregunta_38" name="pregunta_38" />
+          <input class="file-name" type="file" id="pregunta_38" name="pregunta_38" required/>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_39"
@@ -741,6 +765,7 @@
             id="pregunta_39_cumple"
             name="pregunta_39"
             value="Cumple"
+            required
           />
           <label for="pregunta_39_cumple">Cumple</label>
           <input
@@ -750,8 +775,9 @@
             value="No cumple"
           />
           <label for="pregunta_39_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
-        <div>
+        <div class="Cumplimiento">
           <label for="pregunta_40"
             >*(R) La iluminación debe ser adecuada, el mesón debe estar techado
             y garantizando la ventilación</label
@@ -761,6 +787,7 @@
             id="pregunta_40_cumple"
             name="pregunta_40"
             value="Cumple"
+            required
           />
           <label for="pregunta_40_cumple">Cumple</label>
           <input
@@ -769,49 +796,48 @@
             name="pregunta_40"
             value="No cumple"
           />
-          No cumple
+          <label for="pregunta_40_no_cumple">No Cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="calificaciones">
-          <label for="pregunta_41"
-            >*Valoración 5s espacio para ensayos de concreto y agregados:</label
-          >
+          <label for="pregunta_41">*Valoración 5s espacio para ensayos de concreto y agregados:</label>
           <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_41_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_41_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_41_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_41_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_41_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_41_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_41_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_41_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_41_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_41_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_41_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_41_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_41_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_41_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_41_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_41_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_41_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_41_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_41_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_41_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_41_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_41_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_41_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_41_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_41_Sostener" value="5" /> 5
-        </div>
+          <input type="radio" id="pregunta_41_Op1_Clasificar" name="pregunta_41_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_41_Op2_Clasificar" name="pregunta_41_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_41_Op3_Clasificar" name="pregunta_41_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_41_Op4_Clasificar" name="pregunta_41_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_41_Op5_Clasificar" name="pregunta_41_Clasificar" value="5" /> 5
+          <label for="Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_41_Op1_Ordenar" name="pregunta_41_Ordenar" value="1" required/> 1
+          <input type="radio" id="pregunta_41_Op2_Ordenar" name="pregunta_41_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_41_Op3_Ordenar" name="pregunta_41_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_41_Op4_Ordenar" name="pregunta_41_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_41_Op5_Ordenar" name="pregunta_41_Ordenar" value="5" /> 5
+          <label for="Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_41_Op1_Limpiar" name="pregunta_41_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_41_Op2_Limpiar" name="pregunta_41_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_41_Op3_Limpiar" name="pregunta_41_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_41_Op4_Limpiar" name="pregunta_41_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_41_Op5_Limpiar" name="pregunta_41_Limpiar" value="5" /> 5
+          <label for="Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_41_Op1_Estandarizar" name="pregunta_41_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_41_Op2_Estandarizar" name="pregunta_41_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_41_Op3_Estandarizar" name="pregunta_41_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_41_Op4_Estandarizar" name="pregunta_41_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_41_Op5_Estandarizar" name="pregunta_41_Estandarizar" value="5" /> 5
+          <label for="Sostener">Sostener</label>
+          <input type="radio" id="pregunta_41_Op1_Sostener" name="pregunta_41_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_41_Op2_Sostener" name="pregunta_41_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_41_Op3_Sostener" name="pregunta_41_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_41_Op4_Sostener" name="pregunta_41_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_41_Op5_Sostener" name="pregunta_41_Sostener" value="5" /> 5
+      </div>      
         <div>
           <label for="pregunta_42"
             >*Observaciones espacio para muestras de concreto y agregados
             (Acciones a tomar):</label
           >
-          <input type="text" id="pregunta_42" name="pregunta_42" />
+          <input type="text" id="pregunta_42" name="pregunta_42" required/>
         </div>
       </fieldset>
       <fieldset>
@@ -821,7 +847,7 @@
           <label for="pregunta_43"
             >*Fotos de accesos a las líneas de fuego</label
           >
-          <input class="file-name" type="file" id="pregunta_43" name="pregunta_43" />
+          <input class="file-name" type="file" id="pregunta_43" name="pregunta_43" required/>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_44"
@@ -836,6 +862,7 @@
             id="pregunta_44_cumple"
             name="pregunta_44"
             value="Cumple"
+            required
           />
           <label for="pregunta_44_cumple">Cumple</label>
           <input
@@ -845,6 +872,7 @@
             value="No cumple"
           />
           <label for="pregunta_44_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_45"
@@ -856,6 +884,7 @@
             id="pregunta_45_cumple"
             name="pregunta_45"
             value="Cumple"
+            required
           />
           <label for="pregunta_45_cumple">Cumple</label>
           <input
@@ -865,6 +894,7 @@
             value="No cumple"
           />
           <label for="pregunta_45_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_46"
@@ -876,6 +906,7 @@
             id="pregunta_46_cumple"
             name="pregunta_46"
             value="Cumple"
+            required
           />
           <label for="pregunta_46_cumple">Cumple</label>
           <input
@@ -885,49 +916,49 @@
             value="No cumple"
           />
           <label for="pregunta_46_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
 
         <div class="calificaciones">
-          <label for="pregunta_47"
-            >*Valoración 5s Accesos a las líneas de fuego:</label
-          >
+          <label for="pregunta_47">*Valoración 5s Accesos a las líneas de fuego:</label>
           <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_47_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_47_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_47_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_47_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_47_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_47_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_47_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_47_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_47_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_47_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_47_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_47_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_47_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_47_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_47_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_47_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_47_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_47_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_47_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_47_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_47_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_47_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_47_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_47_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_47_Sostener" value="5" /> 5
-        </div>
+          <input type="radio" id="pregunta_47_Op1_Clasificar" name="pregunta_47_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_47_Op2_Clasificar" name="pregunta_47_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_47_Op3_Clasificar" name="pregunta_47_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_47_Op4_Clasificar" name="pregunta_47_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_47_Op5_Clasificar" name="pregunta_47_Clasificar" value="5" /> 5
+          <label for="Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_47_Op1_Ordenar" name="pregunta_47_Ordenar" value="1" required/> 1
+          <input type="radio" id="pregunta_47_Op2_Ordenar" name="pregunta_47_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_47_Op3_Ordenar" name="pregunta_47_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_47_Op4_Ordenar" name="pregunta_47_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_47_Op5_Ordenar" name="pregunta_47_Ordenar" value="5" /> 5
+          <label for="Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_47_Op1_Limpiar" name="pregunta_47_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_47_Op2_Limpiar" name="pregunta_47_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_47_Op3_Limpiar" name="pregunta_47_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_47_Op4_Limpiar" name="pregunta_47_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_47_Op5_Limpiar" name="pregunta_47_Limpiar" value="5" /> 5
+          <label for="Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_47_Op1_Estandarizar" name="pregunta_47_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_47_Op2_Estandarizar" name="pregunta_47_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_47_Op3_Estandarizar" name="pregunta_47_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_47_Op4_Estandarizar" name="pregunta_47_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_47_Op5_Estandarizar" name="pregunta_47_Estandarizar" value="5" /> 5
+          <label for="Sostener">Sostener</label>
+          <input type="radio" id="pregunta_47_Op1_Sostener" name="pregunta_47_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_47_Op2_Sostener" name="pregunta_47_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_47_Op3_Sostener" name="pregunta_47_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_47_Op4_Sostener" name="pregunta_47_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_47_Op5_Sostener" name="pregunta_47_Sostener" value="5" /> 5
+      </div>
+      
         <div>
           <label for="pregunta_48"
             >*Observaciones accesos a las líneas de fuego (Acciones a
             tomar):</label
           >
-          <input type="text" id="pregunta_48" name="pregunta_48" />
+          <input type="text" id="pregunta_48" name="pregunta_48" required/>
         </div>
       </fieldset>
       <fieldset>
@@ -935,46 +966,47 @@
         <img src="Imagenes/TablerodeZombras.png" alt="Piletas de curado" />
         <div>
           <label for="pregunta_49">*Fotos de los tableros de sombra</label>
-          <input class="file-name" type="file" id="pregunta_49" name="pregunta_49" />
+          <input class="file-name" type="file" id="pregunta_49" name="pregunta_49" required/>
         </div>
-        <div class="calificaciones"s>
+        <div class="calificaciones">
           <label for="pregunta_50">*Valoración 5s Tableros de sombras:</label>
-          <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_50_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_50_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_50_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_50_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_50_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_50_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_50_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_50_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_50_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_50_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_50_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_50_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_50_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_50_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_50_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_50_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_50_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_50_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_50_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_50_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_50_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_50_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_50_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_50_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_50_Sostener" value="5" /> 5
-        </div>
+          <label for="pregunta_50_Clasificar">Clasificar</label>
+          <input type="radio" id="pregunta_50_Op1_Clasificar" name="pregunta_50_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_50_Op2_Clasificar" name="pregunta_50_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_50_Op3_Clasificar" name="pregunta_50_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_50_Op4_Clasificar" name="pregunta_50_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_50_Op5_Clasificar" name="pregunta_50_Clasificar" value="5" /> 5
+          <label for="pregunta_50_Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_50_Op1_Ordenar" name="pregunta_50_Ordenar" value="1" required/> 1
+          <input type="radio" id="pregunta_50_Op2_Ordenar" name="pregunta_50_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_50_Op3_Ordenar" name="pregunta_50_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_50_Op4_Ordenar" name="pregunta_50_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_50_Op5_Ordenar" name="pregunta_50_Ordenar" value="5" /> 5
+          <label for="pregunta_50_Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_50_Op1_Limpiar" name="pregunta_50_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_50_Op2_Limpiar" name="pregunta_50_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_50_Op3_Limpiar" name="pregunta_50_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_50_Op4_Limpiar" name="pregunta_50_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_50_Op5_Limpiar" name="pregunta_50_Limpiar" value="5" /> 5
+          <label for="pregunta_50_Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_50_Op1_Estandarizar" name="pregunta_50_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_50_Op2_Estandarizar" name="pregunta_50_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_50_Op3_Estandarizar" name="pregunta_50_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_50_Op4_Estandarizar" name="pregunta_50_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_50_Op5_Estandarizar" name="pregunta_50_Estandarizar" value="5" /> 5
+          <label for="pregunta_50_Sostener">Sostener</label>
+          <input type="radio" id="pregunta_50_Op1_Sostener" name="pregunta_50_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_50_Op2_Sostener" name="pregunta_50_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_50_Op3_Sostener" name="pregunta_50_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_50_Op4_Sostener" name="pregunta_50_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_50_Op5_Sostener" name="pregunta_50_Sostener" value="5" /> 5
+      </div>
+      
         <div>
           <label for="pregunta_51"
             >*Observaciones tableros de sombras (Acciones a tomar):</label
           >
-          <input type="text" id="pregunta_51" name="pregunta_51" />
+          <input type="text" id="pregunta_51" name="pregunta_51" required/>
         </div>
       </fieldset>
       <fieldset>
@@ -982,7 +1014,7 @@
         <img src="Imagenes/Asentamientos.png" alt="Piletas de curado" />
         <div>
           <label for="pregunta_52">*Fotos de la zona para asentamientos</label>
-          <input class="file-name" type="file" id="pregunta_52" name="pregunta_52" />
+          <input class="file-name" type="file" id="pregunta_52" name="pregunta_52" required/>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_53"
@@ -994,6 +1026,7 @@
             id="pregunta_53_cumple"
             name="pregunta_53"
             value="Cumple"
+            required
           />
           <label for="pregunta_53_cumple">Cumple</label>
           <input
@@ -1003,43 +1036,45 @@
             value="No cumple"
           />
           <label for="pregunta_53_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="calificaciones">
           <label for="pregunta_54">*Valoración 5s Zona de asentamientos:</label>
-          <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_54_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_54_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_54_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_54_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_54_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_54_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_54_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_54_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_54_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_54_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_54_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_54_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_54_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_54_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_54_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_54_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_54_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_54_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_54_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_54_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_54_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_54_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_54_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_54_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_54_Sostener" value="5" /> 5
+          <label for="pregunta_54_Clasificar">Clasificar</label>
+          <input type="radio" id="pregunta_54_Op1_Clasificar" name="pregunta_54_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_54_Op2_Clasificar" name="pregunta_54_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_54_Op3_Clasificar" name="pregunta_54_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_54_Op4_Clasificar" name="pregunta_54_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_54_Op5_Clasificar" name="pregunta_54_Clasificar" value="5" /> 5
+          <label for="pregunta_54_Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_54_Op1_Ordenar" name="pregunta_54_Ordenar" value="1" required/> 1
+          <input type="radio" id="pregunta_54_Op2_Ordenar" name="pregunta_54_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_54_Op3_Ordenar" name="pregunta_54_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_54_Op4_Ordenar" name="pregunta_54_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_54_Op5_Ordenar" name="pregunta_54_Ordenar" value="5" /> 5
+          <label for="pregunta_54_Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_54_Op1_Limpiar" name="pregunta_54_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_54_Op2_Limpiar" name="pregunta_54_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_54_Op3_Limpiar" name="pregunta_54_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_54_Op4_Limpiar" name="pregunta_54_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_54_Op5_Limpiar" name="pregunta_54_Limpiar" value="5" /> 5
+          <label for="pregunta_54_Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_54_Op1_Estandarizar" name="pregunta_54_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_54_Op2_Estandarizar" name="pregunta_54_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_54_Op3_Estandarizar" name="pregunta_54_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_54_Op4_Estandarizar" name="pregunta_54_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_54_Op5_Estandarizar" name="pregunta_54_Estandarizar" value="5" /> 5
+          <label for="pregunta_54_Sostener">Sostener</label>
+          <input type="radio" id="pregunta_54_Op1_Sostener" name="pregunta_54_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_54_Op2_Sostener" name="pregunta_54_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_54_Op3_Sostener" name="pregunta_54_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_54_Op4_Sostener" name="pregunta_54_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_54_Op5_Sostener" name="pregunta_54_Sostener" value="5" /> 5
+      </div>t type="radio" id="Op5" name="pregunta_54_Sostener" value="5" /> 5
         </div>
         <div>
           <label for="pregunta_55">*Observaciones zona de asentamientos:</label>
-          <input type="text" id="pregunta_55" name="pregunta_55" />
+          <input type="text" id="pregunta_55" name="pregunta_55" required/>
         </div>
       </fieldset>
       <fieldset>
@@ -1047,7 +1082,7 @@
         <img src="Imagenes/Transporte.png" alt="Piletas de curado" />
         <div>
           <label for="pregunta_56">*Fotos de los elementos de transporte</label>
-          <input class="file-name" type="file" id="pregunta_56" name="pregunta_56" />
+          <input class="file-name" type="file" id="pregunta_56" name="pregunta_56" required/>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_57"
@@ -1061,6 +1096,7 @@
             id="pregunta_57_cumple"
             name="pregunta_57"
             value="Cumple"
+            required
           />
           <label for="pregunta_57_cumple">Cumple</label>
           <input
@@ -1070,47 +1106,46 @@
             value="No cumple"
           />
           <label for="pregunta_57_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="calificaciones">
-          <label for="pregunta_58"
-            >*Valoración 5s Elementos de transporte:</label
-          >
-          <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_58_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_58_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_58_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_58_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_58_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_58_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_58_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_58_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_58_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_58_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_58_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_58_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_58_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_58_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_58_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_58_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_58_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_58_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_58_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_58_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_58_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_58_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_58_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_58_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_58_Sostener" value="5" /> 5
-        </div>
+          <label for="pregunta_58">*Valoración 5s Elementos de transporte:</label>
+          <label for="pregunta_58_Clasificar">Clasificar</label>
+          <input type="radio" id="pregunta_58_Op1_Clasificar" name="pregunta_58_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_58_Op2_Clasificar" name="pregunta_58_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_58_Op3_Clasificar" name="pregunta_58_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_58_Op4_Clasificar" name="pregunta_58_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_58_Op5_Clasificar" name="pregunta_58_Clasificar" value="5" /> 5
+          <label for="pregunta_58_Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_58_Op1_Ordenar" name="pregunta_58_Ordenar" value="1" required/> 1
+          <input type="radio" id="pregunta_58_Op2_Ordenar" name="pregunta_58_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_58_Op3_Ordenar" name="pregunta_58_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_58_Op4_Ordenar" name="pregunta_58_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_58_Op5_Ordenar" name="pregunta_58_Ordenar" value="5" /> 5
+          <label for="pregunta_58_Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_58_Op1_Limpiar" name="pregunta_58_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_58_Op2_Limpiar" name="pregunta_58_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_58_Op3_Limpiar" name="pregunta_58_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_58_Op4_Limpiar" name="pregunta_58_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_58_Op5_Limpiar" name="pregunta_58_Limpiar" value="5" /> 5
+          <label for="pregunta_58_Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_58_Op1_Estandarizar" name="pregunta_58_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_58_Op2_Estandarizar" name="pregunta_58_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_58_Op3_Estandarizar" name="pregunta_58_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_58_Op4_Estandarizar" name="pregunta_58_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_58_Op5_Estandarizar" name="pregunta_58_Estandarizar" value="5" /> 5
+          <label for="pregunta_58_Sostener">Sostener</label>
+          <input type="radio" id="pregunta_58_Op1_Sostener" name="pregunta_58_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_58_Op2_Sostener" name="pregunta_58_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_58_Op3_Sostener" name="pregunta_58_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_58_Op4_Sostener" name="pregunta_58_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_58_Op5_Sostener" name="pregunta_58_Sostener" value="5" /> 5
+      </div>
         <div>
           <label for="pregunta_59"
             >*Observaciones Elementos de Transporte (Acciones a tomar):</label
           >
-          <input type="text" id="pregunta_59" name="pregunta_59" />
+          <input type="text" id="pregunta_59" name="pregunta_59" required/>
         </div>
       </fieldset>
       <fieldset>
@@ -1120,7 +1155,7 @@
           <label for="pregunta_60"
             >*Fotos Lavaojos, extintor y kit de análisis de estructuras</label
           >
-          <input class="file-name" type="file" id="pregunta_60" name="pregunta_60" />
+          <input class="file-name" type="file" id="pregunta_60" name="pregunta_60" required/>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_61"
@@ -1131,6 +1166,7 @@
             id="pregunta_61_cumple"
             name="pregunta_61"
             value="Cumple"
+            required
           />
           <label for="pregunta_61_cumple">Cumple</label>
           <input
@@ -1140,6 +1176,7 @@
             value="No cumple"
           />
           <label for="pregunta_61_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_62"
@@ -1151,6 +1188,7 @@
             id="pregunta_62_cumple"
             name="pregunta_62"
             value="Cumple"
+            required
           />
           <label for="pregunta_62_cumple">Cumple</label>
           <input
@@ -1160,6 +1198,7 @@
             value="No cumple"
           />
           <label for="pregunta_62_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_63"
@@ -1170,6 +1209,7 @@
             id="pregunta_63_cumple"
             name="pregunta_63"
             value="Cumple"
+            required
           />
           <label for="pregunta_63_cumple">Cumple</label>
           <input
@@ -1179,49 +1219,48 @@
             value="No cumple"
           />
           <label for="pregunta_63_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="calificaciones">
-          <label for="pregunta_64"
-            >*Valoración 5s Lavaojos, extintor y kit de análisis
-            estructural:</label
-          >
-          <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_64_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_64_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_64_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_64_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_64_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_64_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_64_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_64_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_64_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_64_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_64_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_64_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_64_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_64_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_64_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_64_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_64_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_64_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_64_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_64_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_64_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_64_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_64_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_64_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_64_Sostener" value="5" /> 5
-        </div>
+          <label for="pregunta_64">*Valoración 5s Lavaojos, extintor y kit de análisis estructural:</label>
+          <label for="pregunta_64_Clasificar">Clasificar</label>
+          <input type="radio" id="pregunta_64_Op1_Clasificar" name="pregunta_64_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_64_Op2_Clasificar" name="pregunta_64_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_64_Op3_Clasificar" name="pregunta_64_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_64_Op4_Clasificar" name="pregunta_64_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_64_Op5_Clasificar" name="pregunta_64_Clasificar" value="5" /> 5
+          <label for="pregunta_64_Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_64_Op1_Ordenar" name="pregunta_64_Ordenar" value="1" required /> 1
+          <input type="radio" id="pregunta_64_Op2_Ordenar" name="pregunta_64_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_64_Op3_Ordenar" name="pregunta_64_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_64_Op4_Ordenar" name="pregunta_64_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_64_Op5_Ordenar" name="pregunta_64_Ordenar" value="5" /> 5
+          <label for="pregunta_64_Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_64_Op1_Limpiar" name="pregunta_64_Limpiar" value="1" required /> 1
+          <input type="radio" id="pregunta_64_Op2_Limpiar" name="pregunta_64_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_64_Op3_Limpiar" name="pregunta_64_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_64_Op4_Limpiar" name="pregunta_64_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_64_Op5_Limpiar" name="pregunta_64_Limpiar" value="5" /> 5
+          <label for="pregunta_64_Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_64_Op1_Estandarizar" name="pregunta_64_Estandarizar" value="1" required /> 1
+          <input type="radio" id="pregunta_64_Op2_Estandarizar" name="pregunta_64_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_64_Op3_Estandarizar" name="pregunta_64_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_64_Op4_Estandarizar" name="pregunta_64_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_64_Op5_Estandarizar" name="pregunta_64_Estandarizar" value="5" /> 5
+          <label for="pregunta_64_Sostener">Sostener</label>
+          <input type="radio" id="pregunta_64_Op1_Sostener" name="pregunta_64_Sostener" value="1" required /> 1
+          <input type="radio" id="pregunta_64_Op2_Sostener" name="pregunta_64_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_64_Op3_Sostener" name="pregunta_64_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_64_Op4_Sostener" name="pregunta_64_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_64_Op5_Sostener" name="pregunta_64_Sostener" value="5" /> 5
+      </div>
+      
         <div>
           <label for="pregunta_65"
             >*Observaciones Lavaojos, extintor y kit de análisis estructural
             (Acciones a tomar):</label
           >
-          <input type="text" id="pregunta_65" name="pregunta_65" />
+          <input type="text" id="pregunta_65" name="pregunta_65" required/>
         </div>
       </fieldset>
       <fieldset>
@@ -1229,7 +1268,7 @@
         <img src="Imagenes/Fisica.png" alt="Piletas de curado" />
         <div>
           <label for="pregunta_66">*Fotos de la documentación</label>
-          <input class="file-name" type="file" id="pregunta_66" name="pregunta_66" />
+          <input class="file-name" type="file" id="pregunta_66" name="pregunta_66" required/>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_67"
@@ -1242,6 +1281,7 @@
             id="pregunta_67_cumple"
             name="pregunta_67"
             value="Cumple"
+            required
           />
           <label for="pregunta_67_cumple">Cumple</label>
           <input
@@ -1251,42 +1291,42 @@
             value="No cumple"
           />
           <label for="pregunta_67_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="calificaciones">
-          <label for="pregunta_68"
-            >*Valoración 5s Documentación física y digital:</label
-          >
-          <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_68_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_68_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_68_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_68_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_68_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_68_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_68_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_68_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_68_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_68_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_68_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_68_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_68_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_68_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_68_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_68_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_68_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_68_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_68_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_68_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_68_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_68_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_68_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_68_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_68_Sostener" value="5" /> 5
-        </div>
+          <label for="pregunta_68">*Valoración 5s Documentación física y digital:</label>
+      
+          <label for="pregunta_68_Clasificar">Clasificar</label>
+          <input type="radio" id="pregunta_68_Op1_Clasificar" name="pregunta_68_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_68_Op2_Clasificar" name="pregunta_68_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_68_Op3_Clasificar" name="pregunta_68_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_68_Op4_Clasificar" name="pregunta_68_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_68_Op5_Clasificar" name="pregunta_68_Clasificar" value="5" /> 5
+          <label for="pregunta_68_Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_68_Op1_Ordenar" name="pregunta_68_Ordenar" value="1" required/> 1
+          <input type="radio" id="pregunta_68_Op2_Ordenar" name="pregunta_68_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_68_Op3_Ordenar" name="pregunta_68_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_68_Op4_Ordenar" name="pregunta_68_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_68_Op5_Ordenar" name="pregunta_68_Ordenar" value="5" /> 5
+          <label for="pregunta_68_Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_68_Op1_Limpiar" name="pregunta_68_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_68_Op2_Limpiar" name="pregunta_68_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_68_Op3_Limpiar" name="pregunta_68_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_68_Op4_Limpiar" name="pregunta_68_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_68_Op5_Limpiar" name="pregunta_68_Limpiar" value="5" /> 5
+          <label for="pregunta_68_Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_68_Op1_Estandarizar" name="pregunta_68_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_68_Op2_Estandarizar" name="pregunta_68_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_68_Op3_Estandarizar" name="pregunta_68_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_68_Op4_Estandarizar" name="pregunta_68_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_68_Op5_Estandarizar" name="pregunta_68_Estandarizar" value="5" /> 5
+          <label for="pregunta_68_Sostener">Sostener</label>
+          <input type="radio" id="pregunta_68_Op1_Sostener" name="pregunta_68_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_68_Op2_Sostener" name="pregunta_68_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_68_Op3_Sostener" name="pregunta_68_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_68_Op4_Sostener" name="pregunta_68_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_68_Op5_Sostener" name="pregunta_68_Sostener" value="5" /> 5
+      </div>
         <div>
           <label for="pregunta_69"
             >*Observaciones documentación física y digital (Acciones a
@@ -1300,7 +1340,7 @@
         <img src="Imagenes/Oficina.png" alt="Piletas de curado" />
         <div>
           <label for="pregunta_70">*Fotos oficina</label>
-          <input class="file-name" type="file" id="pregunta_70" name="pregunta_70" />
+          <input class="file-name" type="file" id="pregunta_70" name="pregunta_70" required/>
         </div>
         <div class="Cumplimiento">
           <label for="pregunta_71"
@@ -1313,6 +1353,7 @@
             id="pregunta_71_cumple"
             name="pregunta_71"
             value="Cumple"
+            required
           />
           <label for="pregunta_71_cumple">Cumple</label>
           <input
@@ -1322,45 +1363,47 @@
             value="No cumple"
           />
           <label for="pregunta_71_no_cumple">No cumple</label>
+          <span>Selecciona una de estas opciones</span>
         </div>
         <div class="calificaciones">
           <label for="pregunta_72">*Valoración 5s Oficina:</label>
-          <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_72_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_72_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_72_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_72_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_72_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_72_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_72_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_72_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_72_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_72_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_72_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_72_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_72_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_72_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_72_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_72_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_72_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_72_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_72_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_72_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_72_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_72_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_72_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_72_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_72_Sostener" value="5" /> 5
-        </div>
+          <label for="pregunta_72_Clasificar">Clasificar</label>
+          <input type="radio" id="pregunta_72_Op1_Clasificar" name="pregunta_72_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_72_Op2_Clasificar" name="pregunta_72_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_72_Op3_Clasificar" name="pregunta_72_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_72_Op4_Clasificar" name="pregunta_72_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_72_Op5_Clasificar" name="pregunta_72_Clasificar" value="5" /> 5
+          <label for="pregunta_72_Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_72_Op1_Ordenar" name="pregunta_72_Ordenar" value="1" required/> 1
+          <input type="radio" id="pregunta_72_Op2_Ordenar" name="pregunta_72_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_72_Op3_Ordenar" name="pregunta_72_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_72_Op4_Ordenar" name="pregunta_72_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_72_Op5_Ordenar" name="pregunta_72_Ordenar" value="5" /> 5
+          <label for="pregunta_72_Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_72_Op1_Limpiar" name="pregunta_72_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_72_Op2_Limpiar" name="pregunta_72_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_72_Op3_Limpiar" name="pregunta_72_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_72_Op4_Limpiar" name="pregunta_72_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_72_Op5_Limpiar" name="pregunta_72_Limpiar" value="5" /> 5
+          <label for="pregunta_72_Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_72_Op1_Estandarizar" name="pregunta_72_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_72_Op2_Estandarizar" name="pregunta_72_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_72_Op3_Estandarizar" name="pregunta_72_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_72_Op4_Estandarizar" name="pregunta_72_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_72_Op5_Estandarizar" name="pregunta_72_Estandarizar" value="5" /> 5
+          <label for="pregunta_72_Sostener">Sostener</label>
+          <input type="radio" id="pregunta_72_Op1_Sostener" name="pregunta_72_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_72_Op2_Sostener" name="pregunta_72_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_72_Op3_Sostener" name="pregunta_72_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_72_Op4_Sostener" name="pregunta_72_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_72_Op5_Sostener" name="pregunta_72_Sostener" value="5" /> 5
+      </div>
+      
         <div>
           <label for="pregunta_73"
             >*Observaciones oficina (Acciones a tomar):</label
           >
-          <input type="text" id="pregunta_73" name="pregunta_73" />
+          <input type="text" id="pregunta_73" name="pregunta_73" required/>
         </div>
       </fieldset>
       <fieldset>
@@ -1368,46 +1411,47 @@
         <img src="Imagenes/Adicionales.png" alt="Piletas de curado" />
         <div>
           <label for="pregunta_74">*Fotos elementos adicionales</label>
-          <input class="file-name" type="file" id="pregunta_74" name="pregunta_74" />
+          <input class="file-name" type="file" id="pregunta_74" name="pregunta_74" required/>
         </div>
         <div class="calificaciones">
           <label for="pregunta_75">*Valoración 5s Elementos adicionales</label>
-          <label for="Clasificar">Clasificar</label>
-          <input type="radio" id="Op1" name="pregunta_75_Clasificar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_75_Clasificar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_75_Clasificar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_75_Clasificar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_75_Clasificar" value="5" /> 5
-          <label for="Clasificar">Ordenar</label>
-          <input type="radio" id="Op1" name="pregunta_75_Ordenar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_75_Ordenar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_75_Ordenar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_75_Ordenar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_75_Ordenar" value="5" /> 5
-          <label for="Clasificar">Limpiar</label>
-          <input type="radio" id="Op1" name="pregunta_75_Limpiar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_75_Limpiar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_75_Limpiar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_75_Limpiar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_75_Limpiar" value="5" /> 5
-          <label for="Clasificar">Estandarizar</label>
-          <input type="radio" id="Op1" name="pregunta_75_Estandarizar" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_75_Estandarizar" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_75_Estandarizar" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_75_Estandarizar" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_75_Estandarizar" value="5" /> 5
-          <label for="Clasificar">Sostener</label>
-          <input type="radio" id="Op1" name="pregunta_75_Sostener" value="1" /> 1
-          <input type="radio" id="Op2" name="pregunta_75_Sostener" value="2" /> 2
-          <input type="radio" id="Op3" name="pregunta_75_Sostener" value="3" /> 3
-          <input type="radio" id="Op4" name="pregunta_75_Sostener" value="4" /> 4
-          <input type="radio" id="Op5" name="pregunta_75_Sostener" value="5" /> 5
-        </div>
+          <label for="pregunta_75_Clasificar">Clasificar</label>
+          <input type="radio" id="pregunta_75_Op1_Clasificar" name="pregunta_75_Clasificar" value="1" required /> 1
+          <input type="radio" id="pregunta_75_Op2_Clasificar" name="pregunta_75_Clasificar" value="2" /> 2
+          <input type="radio" id="pregunta_75_Op3_Clasificar" name="pregunta_75_Clasificar" value="3" /> 3
+          <input type="radio" id="pregunta_75_Op4_Clasificar" name="pregunta_75_Clasificar" value="4" /> 4
+          <input type="radio" id="pregunta_75_Op5_Clasificar" name="pregunta_75_Clasificar" value="5" /> 5
+          <label for="pregunta_75_Ordenar">Ordenar</label>
+          <input type="radio" id="pregunta_75_Op1_Ordenar" name="pregunta_75_Ordenar" value="1" required/> 1
+          <input type="radio" id="pregunta_75_Op2_Ordenar" name="pregunta_75_Ordenar" value="2" /> 2
+          <input type="radio" id="pregunta_75_Op3_Ordenar" name="pregunta_75_Ordenar" value="3" /> 3
+          <input type="radio" id="pregunta_75_Op4_Ordenar" name="pregunta_75_Ordenar" value="4" /> 4
+          <input type="radio" id="pregunta_75_Op5_Ordenar" name="pregunta_75_Ordenar" value="5" /> 5
+          <label for="pregunta_75_Limpiar">Limpiar</label>
+          <input type="radio" id="pregunta_75_Op1_Limpiar" name="pregunta_75_Limpiar" value="1" required/> 1
+          <input type="radio" id="pregunta_75_Op2_Limpiar" name="pregunta_75_Limpiar" value="2" /> 2
+          <input type="radio" id="pregunta_75_Op3_Limpiar" name="pregunta_75_Limpiar" value="3" /> 3
+          <input type="radio" id="pregunta_75_Op4_Limpiar" name="pregunta_75_Limpiar" value="4" /> 4
+          <input type="radio" id="pregunta_75_Op5_Limpiar" name="pregunta_75_Limpiar" value="5" /> 5
+          <label for="pregunta_75_Estandarizar">Estandarizar</label>
+          <input type="radio" id="pregunta_75_Op1_Estandarizar" name="pregunta_75_Estandarizar" value="1" required/> 1
+          <input type="radio" id="pregunta_75_Op2_Estandarizar" name="pregunta_75_Estandarizar" value="2" /> 2
+          <input type="radio" id="pregunta_75_Op3_Estandarizar" name="pregunta_75_Estandarizar" value="3" /> 3
+          <input type="radio" id="pregunta_75_Op4_Estandarizar" name="pregunta_75_Estandarizar" value="4" /> 4
+          <input type="radio" id="pregunta_75_Op5_Estandarizar" name="pregunta_75_Estandarizar" value="5" /> 5
+          <label for="pregunta_75_Sostener">Sostener</label>
+          <input type="radio" id="pregunta_75_Op1_Sostener" name="pregunta_75_Sostener" value="1" required/> 1
+          <input type="radio" id="pregunta_75_Op2_Sostener" name="pregunta_75_Sostener" value="2" /> 2
+          <input type="radio" id="pregunta_75_Op3_Sostener" name="pregunta_75_Sostener" value="3" /> 3
+          <input type="radio" id="pregunta_75_Op4_Sostener" name="pregunta_75_Sostener" value="4" /> 4
+          <input type="radio" id="pregunta_75_Op5_Sostener" name="pregunta_75_Sostener" value="5" /> 5
+      </div>
+      
         <div>
           <label for="pregunta_76"
             >*Observaciones oficina (Acciones a tomar):</label
           >
-          <input type="text" id="pregunta_76" name="pregunta_76" />
+          <input type="text" id="pregunta_76" name="pregunta_76" required/>
         </div>
       </fieldset>
       <!-- Continue adding fieldsets for other sections with respective questions -->

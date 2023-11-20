@@ -110,9 +110,17 @@ input[type="text"] {
   margin-bottom: 10px;
   box-sizing: border-box;
 }
-/*Radio Cumple o no Cumple*/
+/* Radio Cumple o no Cumple */
+.Cumplimiento span {
+  display: none;
+  color: red;
+  font-weight: bold;
+}
+
+/* Estilo para los radios */
 .Cumplimiento input[type="radio"] {
-  display: none; /* Oculta el control de radio por defecto */
+  opacity: 0; /* Hace los radios transparentes */
+  position: absolute; /* Los posiciona absolutamente para no afectar el diseño */
 }
 
 .Cumplimiento input[type="radio"] + label {
@@ -128,13 +136,9 @@ input[type="text"] {
   color: #fff;
 }
 
-input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+/* Muestra el mensaje de error cuando no hay opción seleccionada */
+.Cumplimiento input[type="radio"]:invalid + label + span {
+  display: inline-block;
 }
 
 input[type="submit"]:hover {
